@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+}
+
+.clients {
+  margin-bottom: 15px;
+}
+
+/* ===== FOOTER =====*/
+.footer {
+  background-color: #00000;
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+}
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}
+
+.clients-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: var(--white-2);
+  text-transform: capitalize;
+}
+
+.h2 {
+  font-size: var(--fs-1);
+}
+
+.h3 {
+  font-size: var(--fs-2);
+}
+
+.clients {
+  margin-bottom: 15px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+
+.clients-item {
+  min-width: 50%;
+  scroll-snap-align: start;
+}
+
+.clients-item img {
+  width: 100%;
+  filter: grayscale(0);
+  transition: var(--transition-1);
+}
+
+.clients-item img:hover {
+  filter: grayscale(0);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+header .content {
+  position: relative;
+  z-index: 1;
+}
+header .content h1 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 900;
+}
+header .content h1 span {
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header .content h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h1 {
+    font-size: 72px;
+  }
+}
+header .content h2 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+@media screen and (min-width: 480px) {
+  header .content h2 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h2 {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h2 {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h2 {
+    font-size: 128px;
+  }
+}
+header .content .countdown {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header .content .countdown {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content .countdown {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content .countdown {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content .countdown {
+    font-size: 88px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
